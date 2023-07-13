@@ -12,6 +12,7 @@
 
 .bottom-panel {
     background-color: black;
+    display: flex;
     flex-grow: 0;
 }
 
@@ -20,7 +21,14 @@
     cursor: pointer;
     color:white;
     background-color: transparent;
+    font-size: 20px;
     height: 43px;
     width: 36px;
     margin: 2px;
+}
+
+.empty {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
 }
